@@ -1,7 +1,10 @@
-# Project: Secure-Pass-Sentinel (Password Strength Checker)
+# Cloud Security Web App Challenge: Secure-Pass-Sentinel
+
+## Project Overview
+This cloud challenge focuses on enhancing and deploying "Secure-Pass-Sentinel", a password strength checker web application, using serverless cloud technologies. Participants will improve the existing application and deploy it on either Google Cloud Platform (GCP) using Cloud Run or Amazon Web Services (AWS) using Lambda and API Gateway.
 
 ## Challenge Objective 🎯
-Enhance and deploy a password strength checker web application using either Google Cloud Platform (GCP) or Amazon Web Services (AWS). The goal is to improve functionality, security, or performance of the web app and ensure it's correctly deployed and functioning in the cloud.
+Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web app using either Google Cloud Platform (GCP) or Amazon Web Services (AWS). The goal is to improve functionality, security, and performance of the web app while ensuring it's correctly deployed and functioning in a serverless cloud environment.
 
 ## Key Requirements
 1. **Enhance/Modify the App**: Make significant improvements or add new features to the provided password strength checker.
