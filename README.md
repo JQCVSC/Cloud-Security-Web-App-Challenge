@@ -6,12 +6,14 @@ Key Requirements
 Enhance/Modify the App: Make significant improvements or add new features to the provided security web app (e.g., Password Strength Checker, Key Logger, or IDS).
 Cloud Deployment: Deploy the modified app using the services outlined below for either GCP or AWS.
 CI/CD Integration: Integrate GitHub Actions (or a similar tool) to automatically deploy updates to your cloud environment whenever you push to your repository.
+
 GCP Requirements:
 Compute Engine: Use Google Compute Engine to host the web application.
 Cloud Storage/FireStore: Use Google Cloud Storage or Firestore for any persistent storage needs.
 Cloud Run: Optionally, you can containerize the application and deploy it using Cloud Run for a serverless deployment.
 IAM (Identity and Access Management): Set up appropriate IAM roles and permissions to secure access to your resources.
 Cloud Build: Integrate with Cloud Build for CI/CD to automatically deploy updates to your application.
+
 AWS Requirements:
 EC2 (Elastic Compute Cloud): Use AWS EC2 to host the web application.
 S3/DynamoDB: Use Amazon S3 or DynamoDB for any persistent storage needs.
@@ -37,9 +39,7 @@ Step 3: Implement Enhancements
 Enhance or modify the web app according to the challenge requirements. Examples of enhancements include:
 
 Adding a strength meter to the Password Strength Checker.
-Implementing additional checks or alerts in the IDS.
-Improving the UI/UX of the web app.
-Adding logging and monitoring features.
+
 Step 4: Deploy to the Cloud
 GCP Deployment Instructions:
 Compute Engine VM:
@@ -80,8 +80,8 @@ Once you're ready to submit your project, create a pull request to this reposito
 All submissions can be found here.
 
 Acknowledgements 👏
-<<<<<<< HEAD
+
 Thank you to everyone who decides to participate. Community challenges like this are a great way to learn, improve, and demonstrate your skills. I can't wait to see what you build!
 =======
 Thank you to everyone who decides to participate. Community challenges like this are a great way to learn, improve, and demonstrate your skills. I can't wait to see what you build!
->>>>>>> 2f5ab3d47297272ab0ef1a8713005393165b34b7
+
