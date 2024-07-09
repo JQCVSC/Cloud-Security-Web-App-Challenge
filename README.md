@@ -5,11 +5,13 @@ Challenge Objective 🎯
 Welcome to the Cloud Security App Enhancement Challenge. In this project, you will have the opportunity to enhance or modify an existing security web application and deploy it using a cloud provider of your choice (GCP or AWS). The primary goal is to improve the functionality, security, or performance of the web app and ensure it is correctly deployed and functioning in the cloud.
 
 Key Requirements
+
 Enhance/Modify the App: Make significant improvements or add new features to the provided security web app (e.g., Password Strength Checker).
 Cloud Deployment: Deploy the modified app using the services outlined below for either GCP or AWS.
 CI/CD Integration: Integrate GitHub Actions (or a similar tool) to automatically deploy updates to your cloud environment whenever you push to your repository.
 
 GCP Requirements:
+
 Compute Engine: Use Google Compute Engine to host the web application.
 Cloud Storage/FireStore: Use Google Cloud Storage or Firestore for any persistent storage needs.
 Cloud Run: Optionally, you can containerize the application and deploy it using Cloud Run for a serverless deployment.
@@ -17,6 +19,7 @@ IAM (Identity and Access Management): Set up appropriate IAM roles and permissio
 Cloud Build: Integrate with Cloud Build for CI/CD to automatically deploy updates to your application.
 
 AWS Requirements:
+
 EC2 (Elastic Compute Cloud): Use AWS EC2 to host the web application.
 S3/DynamoDB: Use Amazon S3 or DynamoDB for any persistent storage needs.
 Lambda: Optionally, you can package the application as a Lambda function for a serverless deployment.
