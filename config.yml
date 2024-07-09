@@ -1,5 +1,5 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: "Cloud Security Web App Challenge"  # Customize the title of your site
-header_pages: []  # This can be used to remove or add specific pages to the header
+- jekyll-remote-theme
+title: "Cloud Security Web App Challenge: Secure-Pass-Sentinel"
+description: "Enhance and deploy a password strength checker using serverless cloud technologies"
