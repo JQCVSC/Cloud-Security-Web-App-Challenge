@@ -80,4 +80,8 @@ Once you're ready to submit your project, create a pull request to this reposito
 All submissions can be found here.
 
 Acknowledgements 👏
+<<<<<<< HEAD
 Thank you to everyone who decides to participate. Community challenges like this are a great way to learn, improve, and demonstrate your skills. I can't wait to see what you build!
+=======
+Thank you to everyone who decides to participate. Community challenges like this are a great way to learn, improve, and demonstrate your skills. I can't wait to see what you build!
+>>>>>>> 2f5ab3d47297272ab0ef1a8713005393165b34b7
