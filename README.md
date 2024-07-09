@@ -32,18 +32,19 @@ S3/DynamoDB: Use Amazon S3 or DynamoDB for any persistent storage needs.
 Lambda: Optionally, you can package the application as a Lambda function for a serverless deployment.
 IAM (Identity and Access Management): Set up appropriate IAM roles and permissions to secure access to your resources.
 CodePipeline: Integrate with AWS CodePipeline for CI/CD to automatically deploy updates to your application.
+
 Getting Started 🚀
 ## Step 1: Clone the Repository
 Start by cloning the provided GitHub repository containing the base code for the security web app.
 
-Copy code
+Copy code:
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
 
 ## Step 2: Set Up Locally
 Set up the development environment locally to run the web app.
 
-Copy code
+Copy code:
 pip install -r requirements.txt
 python app.py
 
@@ -59,7 +60,7 @@ SSH into the VM.
 Clone the modified repository.
 Install dependencies and run the app.
 
-Copy code
+Copy code:
 gcloud compute ssh your-vm-instance
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
@@ -75,7 +76,7 @@ SSH into the EC2 instance.
 Clone the modified repository.
 Install dependencies and run the app.
 
-Copy code
+Copy code:
 ssh ec2-user@your-ec2-instance
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
