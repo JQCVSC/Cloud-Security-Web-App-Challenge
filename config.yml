@@ -61,4 +61,4 @@ google_analytics: [Your Google Analytics tracking ID]
 # GitHub repository
 github:
   is_project_page: true
-  repository_url: "https://github.com/your-username/Cloud-Security-Web-App-Challenge"
+  repository_url: "https://github.com/JQCVSC/Cloud-Security-Web-App-Challenge"
