@@ -10,6 +10,13 @@ Enhance/Modify the App: Make significant improvements or add new features to the
 Cloud Deployment: Deploy the modified app using the services outlined below for either GCP or AWS.
 CI/CD Integration: Integrate GitHub Actions (or a similar tool) to automatically deploy updates to your cloud environment whenever you push to your repository.
 
+## The Challenge now support all three major cloud providers:
+
+| Cloud    | Challenge |
+| -------- | ------- |
+| [AWS]()    | [x]   |
+| [GCP]()    | [x]   |
+
 ## GCP Requirements:
 
 Compute Engine: Use Google Compute Engine to host the web application.
