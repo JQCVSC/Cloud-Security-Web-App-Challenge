@@ -33,38 +33,39 @@ Lambda: Optionally, you can package the application as a Lambda function for a s
 IAM (Identity and Access Management): Set up appropriate IAM roles and permissions to secure access to your resources.
 CodePipeline: Integrate with AWS CodePipeline for CI/CD to automatically deploy updates to your application.
 Getting Started 🚀
-Step 1: Clone the Repository
+## Step 1: Clone the Repository
 Start by cloning the provided GitHub repository containing the base code for the security web app.
 
-bash
 Copy code
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
-Step 2: Set Up Locally
+
+## Step 2: Set Up Locally
 Set up the development environment locally to run the web app.
 
-bash
 Copy code
 pip install -r requirements.txt
 python app.py
-Step 3: Implement Enhancements
+
+## Step 3: Implement Enhancements
 Enhance or modify the web app according to the challenge requirements. Examples of enhancements include:
 
 Adding a strength meter to the Password Strength Checker.
 
-Step 4: Deploy to the Cloud
+## Step 4: Deploy to the Cloud
 GCP Deployment Instructions:
 Compute Engine VM:
 SSH into the VM.
 Clone the modified repository.
 Install dependencies and run the app.
-bash
+
 Copy code
 gcloud compute ssh your-vm-instance
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
 pip install -r requirements.txt
 python app.py
+
 Cloud Run:
 Containerize the app using Docker.
 Deploy the Docker image to Cloud Run.
@@ -73,17 +74,19 @@ EC2 Instance:
 SSH into the EC2 instance.
 Clone the modified repository.
 Install dependencies and run the app.
-bash
+
 Copy code
 ssh ec2-user@your-ec2-instance
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
 pip install -r requirements.txt
 python app.py
+
 Lambda Function:
 Package the app as a Lambda function.
 Set up an API Gateway to route requests to the Lambda function.
-Step 5: Set Up CI/CD
+
+## Step 5: Set Up CI/CD
 Integrate GitHub Actions to automatically package and deploy your serverless function on every push to the repository. Refer to the GitHub Actions documentation for setup instructions.
 
 Submission/Showcase 📥
