@@ -33,7 +33,7 @@ Lambda: Optionally, you can package the application as a Lambda function for a s
 IAM (Identity and Access Management): Set up appropriate IAM roles and permissions to secure access to your resources.
 CodePipeline: Integrate with AWS CodePipeline for CI/CD to automatically deploy updates to your application.
 
-Getting Started 🚀
+# Getting Started 🚀
 ## Step 1: Clone the Repository
 Start by cloning the provided GitHub repository containing the base code for the security web app.
 
@@ -90,7 +90,7 @@ Set up an API Gateway to route requests to the Lambda function.
 ## Step 5: Set Up CI/CD
 Integrate GitHub Actions to automatically package and deploy your serverless function on every push to the repository. Refer to the GitHub Actions documentation for setup instructions.
 
-Submission/Showcase 📥
+## Submission/Showcase 📥
 Once you're ready to submit your project, create a pull request to this repository. Add your name, GitHub repo URL, and the deployed app URL to the table in submissions.md file. In your pull request, provide a summary of what you've done and any additional features or functionalities you've added.
 
 All submissions can be found here.
