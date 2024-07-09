@@ -3,7 +3,7 @@ Challenge Objective 🎯
 Welcome to the Cloud Security App Enhancement Challenge. In this project, you will have the opportunity to enhance or modify an existing security web application and deploy it using a cloud provider of your choice (GCP or AWS). The primary goal is to improve the functionality, security, or performance of the web app and ensure it is correctly deployed and functioning in the cloud.
 
 Key Requirements
-Enhance/Modify the App: Make significant improvements or add new features to the provided security web app (e.g., Password Strength Checker, Key Logger, or IDS).
+Enhance/Modify the App: Make significant improvements or add new features to the provided security web app (e.g., Password Strength Checker).
 Cloud Deployment: Deploy the modified app using the services outlined below for either GCP or AWS.
 CI/CD Integration: Integrate GitHub Actions (or a similar tool) to automatically deploy updates to your cloud environment whenever you push to your repository.
 
