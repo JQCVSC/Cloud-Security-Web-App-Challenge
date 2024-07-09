@@ -29,18 +29,20 @@ Enhance or modify an existing security web application (e.g., Password Strength 
 ## Getting Started 🚀
 
 ### Step 1: Clone the Repository
-```bash
+
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
-Step 2: Set Up Locally
+
+### Step 2: Set Up Locally
 bashCopypip install -r requirements.txt
 python app.py
-Step 3: Implement Enhancements
+
+### Step 3: Implement Enhancements
 Enhance the web app. For example:
 
 Add a strength meter to the Password Strength Checker.
 
-Step 4: Deploy to the Cloud
+### Step 4: Deploy to the Cloud
 Choose either GCP or AWS for deployment.
 GCP Deployment:
 
@@ -64,7 +66,7 @@ python app.py
 
 Lambda Function: Package the app as a Lambda function and set up an API Gateway.
 
-Step 5: Set Up CI/CD
+### Step 5: Set Up CI/CD
 Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup.
 Submission/Showcase 📥
 
