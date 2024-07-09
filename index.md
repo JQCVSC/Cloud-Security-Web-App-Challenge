@@ -1,6 +1,3 @@
----
-layout: default
----
 
 # Welcome to the Cloud Security Web App Challenge: Secure-Pass-Sentinel
 
