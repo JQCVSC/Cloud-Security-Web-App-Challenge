@@ -1,79 +1,82 @@
-# Cloud Security Web App Enhancement Challenge
+# Project: Secure-Pass-Sentinel (Password Strength Checker)
 
 ## Challenge Objective 🎯
-
-Enhance or modify an existing security web application (e.g., Password Strength Checker) and deploy it using either Google Cloud Platform (GCP) or Amazon Web Services (AWS). The goal is to improve functionality, security, or performance of the web app and ensure it's correctly deployed and functioning in the cloud.
+Enhance and deploy a password strength checker web application using either Google Cloud Platform (GCP) or Amazon Web Services (AWS). The goal is to improve functionality, security, or performance of the web app and ensure it's correctly deployed and functioning in the cloud.
 
 ## Key Requirements
-
-1. **Enhance/Modify the App**: Make significant improvements or add new features to the provided security web app.
+1. **Enhance/Modify the App**: Make significant improvements or add new features to the provided password strength checker.
 2. **Cloud Deployment**: Deploy the modified app using the services outlined below for either GCP or AWS.
 3. **CI/CD Integration**: Integrate GitHub Actions (or similar tool) to automatically deploy updates to your cloud environment when you push to your repository.
 
 ## Cloud Provider Requirements
-
 ### GCP Requirements:
-- **Compute Engine**: Host the web application.
-- **Cloud Storage/FireStore**: Use for any persistent storage needs.
-- **Cloud Run** (Optional): Containerize and deploy for serverless deployment.
+- **Compute Engine** or **Cloud Run**: Host the web application.
+- **Cloud Storage**: Store the common_passwords.txt file (if needed).
 - **IAM**: Set up appropriate roles and permissions.
 - **Cloud Build**: Integrate for CI/CD.
 
 ### AWS Requirements:
-- **EC2**: Host the web application.
-- **S3/DynamoDB**: Use for any persistent storage needs.
-- **Lambda** (Optional): Package as a Lambda function for serverless deployment.
+- **EC2** or **Lambda**: Host the web application.
+- **S3**: Store the common_passwords.txt file (if needed).
 - **IAM**: Set up appropriate roles and permissions.
 - **CodePipeline**: Integrate for CI/CD.
 
-## Getting Started 🚀
+# Getting Started 🚀
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/your-repo/security-web-app.git
-cd security-web-app
+git clone https://github.com/your-username/Secure-Pass-Sentinel.git
+cd Secure-Pass-Sentinel
 
 ### Step 2: Set Up Locally
 pip install -r requirements.txt
-python app.py
+python main.py
 
 ### Step 3: Implement Enhancements
 Enhance the web app. For example:
 
-Add a strength meter to the Password Strength Checker.
+Improve the user interface
+Add password generation functionality
+Implement password history checking
 
 ### Step 4: Deploy to the Cloud
-**Choose either GCP or AWS for deployment.**
-
-## GCP Deployment:
+Choose either GCP or AWS for deployment.
+GCP Deployment:
 
 Compute Engine VM:
 gcloud compute ssh your-vm-instance
-git clone https://github.com/your-repo/security-web-app.git
-cd security-web-app
+git clone https://github.com/your-username/Secure-Pass-Sentinel.git
+cd Secure-Pass-Sentinel
 pip install -r requirements.txt
-python app.py
+python main.py
 
-Cloud Run: Containerize the app using Docker and deploy to Cloud Run.
+Cloud Run: Use the provided cloudbuild.yaml file to deploy to Cloud Run.
 
 ## AWS Deployment:
 
 EC2 Instance:
 ssh ec2-user@your-ec2-instance
-git clone https://github.com/your-repo/security-web-app.git
-cd security-web-app
+git clone https://github.com/your-username/Secure-Pass-Sentinel.git
+cd Secure-Pass-Sentinel
 pip install -r requirements.txt
-python app.py
+python main.py
 
 Lambda Function: Package the app as a Lambda function and set up an API Gateway.
 
 ### Step 5: Set Up CI/CD
 Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup.
+Project Structure
+
+main.py: The main Flask application file containing the password checking logic.
+requirements.txt: List of Python dependencies.
+cloudbuild.yaml: Configuration file for Google Cloud Build (for GCP deployment only).
+common_passwords.txt: A list of common passwords to check against (ensure this file is in the same directory as main.py).
+
 Submission/Showcase 📥
 
-### Create a pull request to this repository.
+Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
 Provide a summary of your enhancements and any additional features in your pull request.
 
-# Acknowledgements 👏
-Thank you for participating! We look forward to seeing your innovative enhancements and deployments.
+Acknowledgements 👏
+Thank you for participating! We look forward to seeing your innovative enhancements and deployments of the Secure-Pass-Sentinel project.
