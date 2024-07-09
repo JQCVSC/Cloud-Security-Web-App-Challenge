@@ -1,57 +1,85 @@
+#  ☁️ Cloud Security Web App Challenge: Secure-Pass-Sentinel 🔐
 
-# Welcome to the Cloud Security Web App Challenge: Secure-Pass-Sentinel
+## Project Overview 📂
+This cloud challenge focuses on enhancing and deploying "Secure-Pass-Sentinel", a password strength checker web application, using serverless cloud technologies. Participants will improve the existing application and deploy it on either Google Cloud Platform (GCP) using Cloud Run or Amazon Web Services (AWS) using Lambda and API Gateway.
 
-## Challenge Overview
+## Challenge Objective 🎯
+Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web app using either Google Cloud Platform (GCP) or Amazon Web Services (AWS). The goal is to improve functionality, security, and performance of the web app while ensuring it's correctly deployed and functioning in a serverless cloud environment.
 
-Enhance and deploy "Secure-Pass-Sentinel", a password strength checker web application, using serverless cloud technologies. This challenge is designed to test your skills in cloud deployment, security implementation, and web application development.
+## Key Requirements 🗝️
+1. **Enhance/Modify the App**: Make significant improvements or add new features to the provided password strength checker.
+2. **Cloud Deployment**: Deploy the modified app using the services outlined below for either GCP or AWS.
+3. **CI/CD Integration**: Integrate GitHub Actions (or similar tool) to automatically deploy updates to your cloud environment when you push to your repository.
 
-## Project: Secure-Pass-Sentinel
+## Cloud Provider Requirements
+### GCP Requirements:
+- **Compute Engine** or **Cloud Run**: Host the web application.
+- **Cloud Storage**: Store the common_passwords.txt file (if needed).
+- **IAM**: Set up appropriate roles and permissions.
+- **Cloud Build**: Integrate for CI/CD.
 
-Secure-Pass-Sentinel is a web-based password strength checker that evaluates passwords based on length, character types, and checks against a list of common passwords. Your task is to enhance this application and deploy it to the cloud.
+### AWS Requirements:
+- **EC2** or **Lambda**: Host the web application.
+- **S3**: Store the common_passwords.txt file (if needed).
+- **IAM**: Set up appropriate roles and permissions.
+- **CodePipeline**: Integrate for CI/CD.
 
-## Key Objectives
+# Getting Started 🚀
 
-1. **Enhance the Application**: Improve the functionality, security, or performance of Secure-Pass-Sentinel.
-2. **Cloud Deployment**: Deploy the enhanced app using serverless technologies on either GCP or AWS.
-3. **CI/CD Integration**: Implement a CI/CD pipeline for automatic deployments.
+### Step 1: Clone the Repository
 
-## Getting Started
-
-1. Clone the repository:
 git clone https://github.com/your-username/Secure-Pass-Sentinel.git
-Copy2. Implement your enhancements
-3. Deploy to your chosen cloud platform
-4. Set up CI/CD for automated deployments
+cd Secure-Pass-Sentinel
 
-## Submission Guidelines
+### Step 2: Set Up Locally
+pip install -r requirements.txt
+python main.py
 
-- Fork this repository
-- Implement your enhancements and cloud deployment
-- Submit a pull request with your changes
-- Include a detailed README explaining your enhancements and deployment process
+### Step 3: Implement Enhancements
+Enhance the web app. For example:
 
-## Resources
+Improve the user interface
+Add password generation functionality
+Implement password history checking
 
-- [Original Secure-Pass-Sentinel Repository](https://github.com/your-username/Secure-Pass-Sentinel)
-- [GCP Cloud Run Documentation](https://cloud.google.com/run/docs)
-- [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+### Step 4: Deploy to the Cloud
+Choose either GCP or AWS for deployment.
+GCP Deployment:
 
-## Questions?
+Compute Engine VM:
+gcloud compute ssh your-vm-instance
+git clone https://github.com/your-username/Secure-Pass-Sentinel.git
+cd Secure-Pass-Sentinel
+pip install -r requirements.txt
+python main.py
 
-If you have any questions about the challenge, please [open an issue](https://github.com/your-username/Cloud-Security-Web-App-Challenge/issues) in this repository.
+Cloud Run: Use the provided cloudbuild.yaml file to deploy to Cloud Run.
 
-Good luck, and happy coding!
-To use this index.md:
+## AWS Deployment:
 
-Create a new file named index.md in the root directory of your GitHub Pages repository.
-Copy and paste the content above into this file.
-Customize the content as needed. For example, replace "your-username" with your actual GitHub username and adjust any links or specific details.
-Commit and push this file to your repository.
+EC2 Instance:
+ssh ec2-user@your-ec2-instance
+git clone https://github.com/your-username/Secure-Pass-Sentinel.git
+cd Secure-Pass-Sentinel
+pip install -r requirements.txt
+python main.py
 
-This index.md provides an overview of your challenge, explains the key objectives, gives instructions on how to get started, and includes submission guidelines. It also provides some resources and a way for participants to ask questions.
-Remember to update your _config.yml file to include:
-yamlCopyremote_theme: pages-themes/slate@v0.2.0
-plugins:
-- jekyll-remote-theme
-title: "Cloud Security Web App Challenge: Secure-Pass-Sentinel"
-description: "Enhance and deploy a password strength checker using serverless cloud technologies"
+Lambda Function: Package the app as a Lambda function and set up an API Gateway.
+
+### Step 5: Set Up CI/CD
+Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup.
+Project Structure
+
+main.py: The main Flask application file containing the password checking logic.
+requirements.txt: List of Python dependencies.
+cloudbuild.yaml: Configuration file for Google Cloud Build (for GCP deployment only).
+common_passwords.txt: A list of common passwords to check against (ensure this file is in the same directory as main.py).
+
+Submission/Showcase 📥
+
+Create a pull request to this repository.
+Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
+Provide a summary of your enhancements and any additional features in your pull request.
+
+Acknowledgements 👏
+Thank you for participating! We look forward to seeing your innovative enhancements and deployments of the Secure-Pass-Sentinel project.
