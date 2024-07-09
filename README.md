@@ -34,7 +34,7 @@ git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
 
 ### Step 2: Set Up Locally
-bashCopypip install -r requirements.txt
+pip install -r requirements.txt
 python app.py
 
 ### Step 3: Implement Enhancements
@@ -43,11 +43,12 @@ Enhance the web app. For example:
 Add a strength meter to the Password Strength Checker.
 
 ### Step 4: Deploy to the Cloud
-Choose either GCP or AWS for deployment.
-GCP Deployment:
+**Choose either GCP or AWS for deployment.**
+
+## GCP Deployment:
 
 Compute Engine VM:
-bashCopygcloud compute ssh your-vm-instance
+gcloud compute ssh your-vm-instance
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
 pip install -r requirements.txt
@@ -55,10 +56,10 @@ python app.py
 
 Cloud Run: Containerize the app using Docker and deploy to Cloud Run.
 
-AWS Deployment:
+## AWS Deployment:
 
 EC2 Instance:
-bashCopyssh ec2-user@your-ec2-instance
+ssh ec2-user@your-ec2-instance
 git clone https://github.com/your-repo/security-web-app.git
 cd security-web-app
 pip install -r requirements.txt
@@ -70,9 +71,9 @@ Lambda Function: Package the app as a Lambda function and set up an API Gateway.
 Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup.
 Submission/Showcase 📥
 
-Create a pull request to this repository.
+### Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
 Provide a summary of your enhancements and any additional features in your pull request.
 
-Acknowledgements 👏
+# Acknowledgements 👏
 Thank you for participating! We look forward to seeing your innovative enhancements and deployments.
