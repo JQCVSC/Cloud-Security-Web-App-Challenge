@@ -76,7 +76,11 @@ requirements.txt: List of Python dependencies.
 cloudbuild.yaml: Configuration file for Google Cloud Build (for GCP deployment only).
 common_passwords.txt: A list of common passwords to check against (ensure this file is in the same directory as main.py).
 
-Submission/Showcase 📥
+Submission/Showcase 
+
+# Submissions for Cloud Security Web App Challenge
+
+{% include submissions.md %}
 
 Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
