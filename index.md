@@ -28,7 +28,7 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/JQCVSC/Secure-Pass-Sentinel.git
+git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 
 ### Step 2: Set Up Locally
@@ -43,14 +43,13 @@ Add password generation functionality
 Implement password history checking
 
 ### Step 4: Deploy to the Cloud
-
 Choose either GCP or AWS for deployment.
 
 ## GCP Deployment:
 
 Compute Engine VM:
 gcloud compute ssh your-vm-instance
-git clone https://github.com/JQCVSC/Secure-Pass-Sentinel.git
+git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 pip install -r requirements.txt
 python main.py
@@ -61,7 +60,7 @@ Cloud Run: Use the provided cloudbuild.yaml file to deploy to Cloud Run.
 
 EC2 Instance:
 ssh ec2-user@your-ec2-instance
-git clone https://github.com/JQCVSC/Secure-Pass-Sentinel.git
+git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 pip install -r requirements.txt
 python main.py
@@ -77,11 +76,15 @@ requirements.txt: List of Python dependencies.
 cloudbuild.yaml: Configuration file for Google Cloud Build (for GCP deployment only).
 common_passwords.txt: A list of common passwords to check against (ensure this file is in the same directory as main.py).
 
-## Submission/Showcase 📥
+## Submission/Showcase 
+
+# Submissions for Cloud Security Web App Challenge
+
+{% include submissions.md %}
 
 Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
 Provide a summary of your enhancements and any additional features in your pull request.
 
-Acknowledgements 👏
+## Acknowledgements 👏
 Thank you for participating! We look forward to seeing your innovative enhancements and deployments of the Secure-Pass-Sentinel project.
