@@ -43,8 +43,10 @@ Add password generation functionality
 Implement password history checking
 
 ### Step 4: Deploy to the Cloud
+
 Choose either GCP or AWS for deployment.
-GCP Deployment:
+
+## GCP Deployment:
 
 Compute Engine VM:
 gcloud compute ssh your-vm-instance
