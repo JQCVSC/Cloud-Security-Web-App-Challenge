@@ -28,7 +28,7 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/JQCVSC/SecurePass-Sentinel
+git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 
 ### Step 2: Set Up Locally
@@ -44,11 +44,12 @@ Implement password history checking
 
 ### Step 4: Deploy to the Cloud
 Choose either GCP or AWS for deployment.
-GCP Deployment:
+
+## GCP Deployment:
 
 Compute Engine VM:
 gcloud compute ssh your-vm-instance
-git clone https://github.com/JQCVSC/SecurePass-Sentinel
+git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 pip install -r requirements.txt
 python main.py
@@ -59,7 +60,7 @@ Cloud Run: Use the provided cloudbuild.yaml file to deploy to Cloud Run.
 
 EC2 Instance:
 ssh ec2-user@your-ec2-instance
-git clone https://github.com/JQCVSC/SecurePass-Sentinel
+git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 pip install -r requirements.txt
 python main.py
