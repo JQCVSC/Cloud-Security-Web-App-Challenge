@@ -56,7 +56,7 @@ style: |
   }
 
 # Google Analytics
-google_analytics: [Your Google Analytics tracking ID]
+google_analytics: UA-XXXXX-Y
 
 # GitHub repository
 github:
