@@ -79,6 +79,7 @@ common_passwords.txt: A list of common passwords to check against (ensure this f
 ## Submission/Showcase 
 
 # Submissions for Cloud Security Web App Challenge
+
 {% include submissions.md %}
 
 Create a pull request to this repository.
