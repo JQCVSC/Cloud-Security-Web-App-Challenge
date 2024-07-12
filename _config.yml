@@ -1,6 +1,5 @@
 # Site settings
 title: "Cloud Security Web App Challenge: Secure-Pass-Sentinel"
-email: your-email@example.com
 description: "Enhance and deploy a password strength checker using serverless cloud technologies"
 baseurl: "/Cloud-Security-Web-App-Challenge"
 url: "https://jqcvsc.github.io"
