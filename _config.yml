@@ -4,31 +4,33 @@ description: "Enhance and deploy a password strength checker using serverless cl
 baseurl: "/Cloud-Security-Web-App-Challenge"
 url: "https://jqcvsc.github.io"
 
-# Build settings
+# Theme settings
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
-  - jekyll-github-pages
+show_downloads: false
 
-# Custom CSS
+# Google Analytics
+# google_analytics: [Your Google Analytics tracking ID]
+
+# Custom CSS (this will be applied on top of Cayman theme)
 style: |
   body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
   }
-  #header_wrap .inner {
-    padding: 30px 10px 30px 10px;
+  .page-header {
+    padding: 30px 10px;
   }
-  #project_title {
+  .project-name {
     font-size: 36px;
     font-weight: 700;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
   }
-  #project_tagline {
+  .project-tagline {
     font-size: 18px;
     font-weight: 300;
   }
-  #main_content {
+  .main-content {
     padding-top: 40px;
   }
   h1, h2, h3, h4, h5, h6 {
@@ -60,14 +62,11 @@ style: |
     padding: 10px;
   }
 
-# Exclude from processing.
+# Exclude from processing
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
