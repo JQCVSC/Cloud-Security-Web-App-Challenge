@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Cloud Security Web App Challenge: Secure-Pass-Sentinel"
 ---
 
 # ☁️ Cloud Security Web App Challenge: Secure-Pass-Sentinel 🔐
