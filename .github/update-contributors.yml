@@ -1,0 +1,28 @@
+name: Update Contributors List
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    name: Update project contributors in README
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update Contributors List
+        uses: akhilmhdh/contributors-readme-action@v2.3.10
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          readme_path: 'README.md'
+          collaborators: 'all'
+          max_contributors: 10
+          contributor_template: '<a href="https://github.com/#{contributor}"><img src="#{avatar}" width="50px" alt="#{name}" /></a>'
+          commit_message: 'docs: update contributors list'
