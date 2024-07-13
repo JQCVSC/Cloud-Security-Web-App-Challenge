@@ -3,6 +3,7 @@ title: "Cloud Security Web App Challenge: Secure-Pass-Sentinel"
 description: "Enhance and deploy a password strength checker using serverless cloud technologies"
 baseurl: "/Cloud-Security-Web-App-Challenge"
 url: "https://jqcvsc.github.io"
+repository: JQCVSC/Cloud-Security-Web-App-Challenge
 
 # Theme settings
 remote_theme: pages-themes/cayman@v0.2.0
