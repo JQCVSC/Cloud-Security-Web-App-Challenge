@@ -85,3 +85,8 @@ Provide a summary of your enhancements and any additional features in your pull 
 
 Acknowledgements 👏
 Thank you for participating! We look forward to seeing your innovative enhancements and deployments of the Secure-Pass-Sentinel project.
+
+## Contributors
+
+<!-- contributors -->
+<!-- contributors -->
