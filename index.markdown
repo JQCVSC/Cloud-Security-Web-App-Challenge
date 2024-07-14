@@ -35,9 +35,11 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
+
 Step 2: Set Up Locally
-bashCopypip install -r requirements.txt
+pip install -r requirements.txt
 python main.py
+
 Step 3: Implement Enhancements
 Enhance the web app. For example:
 
@@ -76,7 +78,7 @@ requirements.txt: List of Python dependencies.
 cloudbuild.yaml: Configuration file for Google Cloud Build (for GCP deployment only).
 common_passwords.txt: A list of common passwords to check against (ensure this file is in the same directory as main.py).
 
-Submission/Showcase
+## Submission/Showcase
 Submissions for Cloud Security Web App Challenge
 {% include submissions.md %}
 To submit your project:
