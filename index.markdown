@@ -57,7 +57,7 @@ Implement password history checking
 
 Choose either GCP or AWS for deployment.
 
-## To submit your project:
+### To submit your project:
 
 Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
