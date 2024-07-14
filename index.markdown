@@ -59,7 +59,6 @@ Choose either GCP or AWS for deployment.
 
 ## Submission
 
-Submissions for Cloud Security Web App Challenge
 {% include submissions.md %}
 
 ## To submit your project:
