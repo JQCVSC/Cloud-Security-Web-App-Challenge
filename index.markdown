@@ -57,15 +57,13 @@ Implement password history checking
 
 Choose either GCP or AWS for deployment.
 
-## Submission
-
-{% include submissions.md %}
-
 ## To submit your project:
 
 Create a pull request to this repository.
 Add your name, GitHub repo URL, and deployed app URL to the submissions.md file.
 Provide a summary of your enhancements and any additional features in your pull request.
+
+{% include submissions.md %}
 
 ## Acknowledgements 👏
 Thank you for participating! We look forward to seeing your innovative enhancements and deployments of the Secure-Pass-Sentinel project.
