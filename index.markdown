@@ -45,25 +45,29 @@ Improve the user interface
 Add password generation functionality
 Implement password history checking
 
-Step 4: Deploy to the Cloud
+### Step 4: Deploy to the Cloud
+
 Choose either GCP or AWS for deployment.
-GCP Deployment:
+
+## GCP Deployment:
 Compute Engine VM:
-bashCopygcloud compute ssh your-vm-instance
+gcloud compute ssh your-vm-instance
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 pip install -r requirements.txt
 python main.py
 Cloud Run: Use the provided cloudbuild.yaml file to deploy to Cloud Run.
-AWS Deployment:
+
+## AWS Deployment:
 EC2 Instance:
-bashCopyssh ec2-user@your-ec2-instance
+ssh ec2-user@your-ec2-instance
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 pip install -r requirements.txt
 python main.py
 Lambda Function: Package the app as a Lambda function and set up an API Gateway.
-Step 5: Set Up CI/CD
+
+### Step 5: Set Up CI/CD
 Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup.
 Project Structure
 
