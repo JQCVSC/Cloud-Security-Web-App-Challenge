@@ -36,14 +36,17 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 Git Clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 
-Step 2: Set Up Locally
+### Step 2: Set Up Locally
+
 pip install -r requirements.txt
 python main.py
 
-Step 3: Implement Enhancements
+### Step 3: Implement Enhancements ( Optional)
+
 Enhance the web app. For example:
 
-## Improve the user interface
+Improve the user interface
+
 Add password generation functionality
 
 Implement password history checking
