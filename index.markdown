@@ -33,7 +33,7 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
+Git Clone https://github.com/JQCVSC/Secure-Pass-Sentinel
 cd Secure-Pass-Sentinel
 
 Step 2: Set Up Locally
