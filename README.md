@@ -26,6 +26,13 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 
 # Getting Started 🚀
 
+The Challenge supports AWS and GCP cloud providers:
+
+| Cloud    | Challenge |
+| --------------------- | ------- |
+| [AWS](https://jqcvsc.github.io/Cloud-Security-Web-App-Challenge/)| [x]   |
+| [GCP](https://jqcvsc.github.io/Cloud-Security-Web-App-Challenge/)| [x]   |
+
 ### Step 1: Clone the Repository
 
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel.git
