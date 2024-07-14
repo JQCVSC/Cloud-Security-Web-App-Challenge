@@ -45,6 +45,7 @@ Enhance the web app. For example:
 
 ## Improve the user interface
 Add password generation functionality
+
 Implement password history checking
 
 ### Step 4: Deploy to the Cloud
@@ -52,33 +53,49 @@ Implement password history checking
 Choose either GCP or AWS for deployment.
 
 ## GCP Deployment:
+
 Compute Engine VM:
+
 gcloud compute ssh your-vm-instance
+
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
+
 cd Secure-Pass-Sentinel
+
 pip install -r requirements.txt
+
 python main.py
+
 Cloud Run: Use the provided cloudbuild.yaml file to deploy to Cloud Run.
 
 ## AWS Deployment:
 EC2 Instance:
+
 ssh ec2-user@your-ec2-instance
+
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel
+
 cd Secure-Pass-Sentinel
+
 pip install -r requirements.txt
+
 python main.py
+
 Lambda Function: Package the app as a Lambda function and set up an API Gateway.
 
 ### Step 5: Set Up CI/CD
-Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup.
-Project Structure
+Integrate GitHub Actions for automatic deployment. Refer to GitHub Actions documentation for setup and project structure.
 
 main.py: The main Flask application file containing the password checking logic.
+
 requirements.txt: List of Python dependencies.
+
 cloudbuild.yaml: Configuration file for Google Cloud Build (for GCP deployment only).
+
 common_passwords.txt: A list of common passwords to check against (ensure this file is in the same directory as main.py).
 
-## Submission/Showcase
+## Submission
+
 Submissions for Cloud Security Web App Challenge
 {% include submissions.md %}
 To submit your project:
