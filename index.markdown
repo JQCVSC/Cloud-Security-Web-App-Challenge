@@ -43,7 +43,7 @@ python main.py
 Step 3: Implement Enhancements
 Enhance the web app. For example:
 
-Improve the user interface
+## Improve the user interface
 Add password generation functionality
 Implement password history checking
 
