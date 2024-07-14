@@ -34,11 +34,13 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 ### Step 1: Clone the Repository
 
 Git Clone https://github.com/JQCVSC/Secure-Pass-Sentinel
+
 cd Secure-Pass-Sentinel
 
 ### Step 2: Set Up Locally
 
 pip install -r requirements.txt
+
 python main.py
 
 ### Step 3: Implement Enhancements ( Optional)
