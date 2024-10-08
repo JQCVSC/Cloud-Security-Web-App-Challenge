@@ -24,7 +24,7 @@ Enhance the Secure-Pass-Sentinel application and deploy it as a serverless web a
 - **IAM**: Set up appropriate roles and permissions.
 - **CodePipeline**: Integrate for CI/CD.
 
-# Getting Started 🚀
+## Getting Started 🚀
 
 The Challenge supports AWS and GCP cloud providers:
 
