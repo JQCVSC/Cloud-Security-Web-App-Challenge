@@ -34,13 +34,15 @@ The Challenge supports AWS and GCP cloud providers:
 | [GCP](https://jqcvsc.github.io/Cloud-Security-Web-App-Challenge/)| [x]   |
 
 ### Step 1: Clone the Repository
-
+```bash
 git clone https://github.com/JQCVSC/Secure-Pass-Sentinel.git
 cd Secure-Pass-Sentinel
-
+```
 ### Step 2: Set Up Locally
+```bash
 pip install -r requirements.txt
 python main.py
+```
 
 ### Step 3: Implement Enhancements
 Enhance the web app. For example:
